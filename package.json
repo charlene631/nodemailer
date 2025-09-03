@@ -1,23 +1,32 @@
 {
   "name": "nodemailer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Projet NodeMailer pour envoi d'emails via Mailtrap",
+  "main": "node-mailer.js",
+  "type": "module",
   "scripts": {
+    "start": "node node-mailer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daviid64/NodeMailer.git"
+    "url": "git+https://github.com/charlene631/nodemailer.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodemailer",
+    "mailtrap",
+    "nodejs",
+    "email"
+  ],
+  "author": "David",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Daviid64/NodeMailer/issues"
+    "url": "https://github.com/charlene631/nodemailer/issues"
   },
-  "homepage": "https://github.com/Daviid64/NodeMailer#readme",
+  "homepage": "https://github.com/charlene631/nodemailer#readme",
   "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
     "nodemailer": "^7.0.6"
   }
 }
